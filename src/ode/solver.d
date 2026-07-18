@@ -14,7 +14,6 @@ module ode.solver;
 import std.traits: isFloatingPoint;
 import ode.plot;
 
-@safe pure nothrow @nogc:
 /*************************************************************
  * Classical Runge-Kutta method for first-order ordinary differential equations
  *
